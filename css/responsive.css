@@ -1,0 +1,353 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav.ml-auto.text-uppercase.text-right {
+        background: #2e3135;
+        text-align: left !important;
+        border-radius: 5px;
+        border: 1px solid #fff;
+    }
+
+    .nav-link {
+        padding: 10px !important;
+    }
+
+    .about_img_overly {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .about_text p {
+        padding: 25px 40px;
+    }
+
+    .skill_icon h3 {
+        padding-top: 17px;
+    }
+
+    .work_overly a {
+        font-size: 10px;
+    }
+
+    #hire_me_area h1 {
+        font-size: 30px;
+    }
+
+    .people_text p {
+        padding: 0 90px;
+    }
+
+
+    .contact_head p {
+        padding: 0 90px;
+    }
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar-nav.ml-auto.text-uppercase.text-right {
+        background: #2e3135;
+        text-align: left !important;
+        border-radius: 5px;
+        border: 1px solid #fff;
+    }
+
+    .nav-link {
+        padding: 10px !important;
+    }
+
+    .banner_text h1 {
+        font-size: 45px;
+    }
+
+    .banner_text h1::before {
+        width: 360px;
+    }
+
+    .banner_text h1::after {
+        width: 360px;
+    }
+
+    .banner_text p {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .dawnload {
+        padding: 10px 20px;
+    }
+
+    .about_img_overly {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .about_text p {
+        padding: 25px 40px;
+    }
+
+    .video_part {
+        margin-top: 0;
+    }
+
+    .photo_grapht {
+        margin-top: 0;
+    }
+
+
+    .skill_icon h3 {
+        padding-top: 17px;
+    }
+
+    .gall_btn {
+        padding: 5px 5px;
+    }
+
+    .work_overly a {
+        font-size: 10px;
+    }
+
+    #hire_me_area h1 {
+        font-size: 25px;
+    }
+
+    .people_text p {
+        padding: 0 90px;
+    }
+
+
+    .contact_head p {
+        padding: 0 30px;
+    }
+
+    .contact_wedget h1 {
+        font-size: 18px;
+
+    }
+
+    .contact_wedget p {
+        font-size: 11px;
+    }
+
+    .footer_area {
+        padding: 30px 0;
+    }
+
+}
+
+/*extra small device*/
+@media (max-width: 575.98px) {
+    .navbar-brand img {
+        max-width: 54%;
+    }
+
+    .navbar-nav.ml-auto.text-uppercase.text-right {
+        background: #2e3135;
+        text-align: left !important;
+        border-radius: 5px;
+        border: 1px solid #fff;
+    }
+
+    .nav-link {
+        padding: 10px !important;
+    }
+
+    .banner_text h1 {
+        font-size: 30px;
+    }
+
+    .banner_text h1::before {
+        width: 245px;
+    }
+
+    .banner_text h1::after {
+        width: 245px;
+    }
+
+    .banner_text p {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .dawnload {
+        padding: 6px 20px;
+    }
+
+    .about_img_overly {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .about_text span {
+        font-size: 17px;
+    }
+
+    .about_text p {
+        padding: 25px 5px;
+        font-size: 14px;
+
+    }
+
+    .about_text a {
+        padding: 10px 20px;
+        margin-bottom: 50px;
+    }
+    
+     .video_part {
+        margin-top: 0;
+    }
+
+    .photo_grapht {
+        margin-top: 0;
+    }
+
+    
+
+    .skill_head p {
+        font-size: 35px;
+    }
+
+
+    .skill_icon h3 {
+        padding-top: 10px;
+    }
+
+    .skill_icon h3 {
+        font-size: 12px;
+    }
+
+    .skill_btn a {
+        padding: 5px 15px;
+    }
+
+
+    .gall_btn {
+        padding: 5px 5px;
+        border: 1px solid #222;
+    }
+
+    .expertise_head_text h1 {
+        font-size: 35px !important;
+    }
+
+    .work_btn {
+        margin-top: 0;
+    }
+
+    .work_btn a {
+        padding: 5px 15px;
+    }
+
+    .work_overly a {
+        font-size: 10px;
+    }
+
+
+    #hire_me_area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+    #hire_me_area h1 {
+        font-size: 18px !important;
+    }
+
+    #hire_me_area a {
+        padding: 5px 15px;
+    }
+
+
+    #hire_me_area h1 {
+        font-size: 25px;
+    }
+
+
+    .people_text {
+        padding-bottom: 50px;
+        padding-top: 40px;
+        margin-bottom: 100px !important;
+    }
+
+    .people_text h1 {
+        font-size: 35px;
+    }
+
+    .people_text p {
+        padding: 0 14px;
+    }
+
+    #contect_area {
+        padding-top: 30px;
+    }
+
+    .contact_head h1 {
+        font-size: 35px;
+    }
+
+    .contact_head p {
+        padding: 0 1px;
+    }
+
+    .contact_wedget {
+        margin-top: 1px;
+    }
+
+    .contact_icon a {
+        height: 50px;
+        width: 40px;
+    }
+
+
+    .contact_wedget h1 {
+        font-size: 18px;
+
+    }
+
+    .contact_wedget p {
+        font-size: 15px;
+    }
+
+    .contact_wedget p {
+        padding: 0 !important;
+    }
+
+    .msg_btn {
+        font-size: 12px;
+        padding: 9px 15px;
+    }
+
+    .footer_text p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .footer_area {
+        padding: 30px 0;
+    }
+
+    #button {
+        width: 30px;
+        height: 40px;
+
+    }
+
+    #button::after {
+        font-size: 1em;
+        line-height: 37px;
+    }
+
+}
